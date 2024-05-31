@@ -11,5 +11,5 @@ grayImage = flatNumpyArray.reshape(300, 400)
 cv2.imwrite('RandomGray.png', grayImage)
 
 # Convert the array to make a 400x100 color image.
-bgrImage = flatNumpyArray.reshape(100, 400, 3)
+bgrImage = flatNumpyArray.reshape((100, 400, 3))
 cv2.imwrite('RandomColor.png', bgrImage)
